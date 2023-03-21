@@ -1,9 +1,10 @@
 #include <iostream>
-#include "Student.h"
+#include "../Student.h"
 #include <memory>
 
 int main() {
     std::cout << "swap by value\n";
+    
     // C++ 11: 列表初始化构造
     Student stu1 {"20170", "himu", 85.9}, stu2 {"20171", "mary", 98.9};
     std::cout << stu1 << " " << stu2 << std::endl;

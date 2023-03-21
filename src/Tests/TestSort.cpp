@@ -2,8 +2,8 @@
 // Created by himu on 23-3-16.
 //
 
-#include "Student.h"
-#include "Sorter.hpp"
+#include "../Student.h"
+#include "../Sorter.hpp"
 #include <vector>
 #include <iostream>
 #include <algorithm>
